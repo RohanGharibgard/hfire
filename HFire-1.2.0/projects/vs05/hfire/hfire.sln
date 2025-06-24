@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gd", "gd\gd.vcproj", "{C8C43FBC-82BD-4A8A-B507-85ED2410F947}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hfirelib", "hfirelib\hfirelib.vcproj", "{07CD7CDD-C160-41D3-B6BC-03060719A017}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C8C43FBC-82BD-4A8A-B507-85ED2410F947} = {C8C43FBC-82BD-4A8A-B507-85ED2410F947}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hfire", "hfire\hfire.vcproj", "{AAB54729-8780-4390-98D5-67DC713932A7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{07CD7CDD-C160-41D3-B6BC-03060719A017} = {07CD7CDD-C160-41D3-B6BC-03060719A017}
+		{C8C43FBC-82BD-4A8A-B507-85ED2410F947} = {C8C43FBC-82BD-4A8A-B507-85ED2410F947}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "roth1972cmp", "roth1972cmp\roth1972cmp.vcproj", "{C101053A-C0F5-40B8-A019-04B001D12E94}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opt", "opt\opt.vcproj", "{CA8A42F3-676A-4F76-AA21-DE585A2226FD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "calcros", "calcros\calcros.vcproj", "{17968F91-46E5-40ED-BE51-C4C8120A5A12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8C43FBC-82BD-4A8A-B507-85ED2410F947}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C8C43FBC-82BD-4A8A-B507-85ED2410F947}.Debug|Win32.Build.0 = Debug|Win32
+		{C8C43FBC-82BD-4A8A-B507-85ED2410F947}.Release|Win32.ActiveCfg = Release|Win32
+		{C8C43FBC-82BD-4A8A-B507-85ED2410F947}.Release|Win32.Build.0 = Release|Win32
+		{07CD7CDD-C160-41D3-B6BC-03060719A017}.Debug|Win32.ActiveCfg = Debug|Win32
+		{07CD7CDD-C160-41D3-B6BC-03060719A017}.Debug|Win32.Build.0 = Debug|Win32
+		{07CD7CDD-C160-41D3-B6BC-03060719A017}.Release|Win32.ActiveCfg = Release|Win32
+		{07CD7CDD-C160-41D3-B6BC-03060719A017}.Release|Win32.Build.0 = Release|Win32
+		{AAB54729-8780-4390-98D5-67DC713932A7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AAB54729-8780-4390-98D5-67DC713932A7}.Debug|Win32.Build.0 = Debug|Win32
+		{AAB54729-8780-4390-98D5-67DC713932A7}.Release|Win32.ActiveCfg = Release|Win32
+		{AAB54729-8780-4390-98D5-67DC713932A7}.Release|Win32.Build.0 = Release|Win32
+		{C101053A-C0F5-40B8-A019-04B001D12E94}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C101053A-C0F5-40B8-A019-04B001D12E94}.Debug|Win32.Build.0 = Debug|Win32
+		{C101053A-C0F5-40B8-A019-04B001D12E94}.Release|Win32.ActiveCfg = Release|Win32
+		{C101053A-C0F5-40B8-A019-04B001D12E94}.Release|Win32.Build.0 = Release|Win32
+		{CA8A42F3-676A-4F76-AA21-DE585A2226FD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CA8A42F3-676A-4F76-AA21-DE585A2226FD}.Debug|Win32.Build.0 = Debug|Win32
+		{CA8A42F3-676A-4F76-AA21-DE585A2226FD}.Release|Win32.ActiveCfg = Release|Win32
+		{CA8A42F3-676A-4F76-AA21-DE585A2226FD}.Release|Win32.Build.0 = Release|Win32
+		{17968F91-46E5-40ED-BE51-C4C8120A5A12}.Debug|Win32.ActiveCfg = Debug|Win32
+		{17968F91-46E5-40ED-BE51-C4C8120A5A12}.Debug|Win32.Build.0 = Debug|Win32
+		{17968F91-46E5-40ED-BE51-C4C8120A5A12}.Release|Win32.ActiveCfg = Release|Win32
+		{17968F91-46E5-40ED-BE51-C4C8120A5A12}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
