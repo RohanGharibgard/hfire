@@ -16,7 +16,7 @@
  * so VC++ builds don't spew to standard output, causing
  * major CGI brain damage
  */
-#define HAVE_JPEG
+
 #ifdef HAVE_JPEG
 
 #include <stdio.h>

@@ -1,4 +1,5 @@
 #ifndef _OSD_POSIX	/* _OSD_POSIX defines *alloc() in stdlib.h */
+#include <malloc.h>
 #endif /*_OSD_POSIX*/
 #include <stdio.h>
 #include <math.h>

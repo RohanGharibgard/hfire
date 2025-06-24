@@ -305,7 +305,7 @@ int FireExportStandAgeAscRaster(ChHashTable * proptbl, GridData * std_age, FireT
 }
 
 int FireExportInitTxtFileHeaders(ChHashTable * proptbl)	{
-  const EnumFireProp file_props[] = {
+  const enum EnumFireProp file_props[] = {
     PROP_EXPIGLCF,                        /* EXPORT_IGNITION_LOCS_FILE */
     PROP_EXPFAREAF,                       /* EXPORT_FIRE_AREA_FILE */
     PROP_EXPSANAEVF,                      /* EXPORT_SANTA_ANA_EVT_FILE */
