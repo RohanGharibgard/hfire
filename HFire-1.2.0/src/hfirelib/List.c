@@ -54,7 +54,8 @@ void FreeList(void * vptr) {
  		list = (List *) vptr;	
 		while (list->size > 0) {
       if ( ListRemoveNext(list, NULL, (void **) &data) ) {
-        ERR_ERROR("Error removing elements from list.\n", ERR_EINVAL);
+		err_error ("Error removing elements from list.\n", __FILE__, __LINE__, ERR_EINVAL);
+		return;
       }
       if ( list->destroy != NULL && data != NULL )    {
         list->destroy(data);
